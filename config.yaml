@@ -1,0 +1,24 @@
+model:
+  hidden_channels: 64
+  num_layers: 3
+  dropout: 0.1
+  learning_rate: 0.001
+  weight_decay: 0.0005
+
+training:
+  batch_size: 32
+  epochs: 50
+  early_stopping_patience: 10
+
+data:
+  node_features:
+    - process_time
+    - resource_req
+    - priority
+    - capacity
+  edge_features:
+    - flow_rate
+    - distance
+    - cost
+  target_features:
+    - target_throughput
