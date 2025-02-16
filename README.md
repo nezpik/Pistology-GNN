@@ -155,8 +155,17 @@ If you use this code in your research, please cite:
   year={2025},
   url={https://github.com/nezpik/Pistology-GNN}
 }
+
+@article{misra2024process,
+  title={Process Is All You Need: A Framework for Process Mapping using Graph Neural Networks},
+  author={Misra, Somesh and Dixit, Shashank},
+  journal={Proceedings of Supply Chain Analytics},
+  year={2024}
+}
 ```
 
 ## Acknowledgments
 
 This implementation is inspired by process mapping concepts in logistics and supply chain management. The architecture utilizes Graph Neural Networks (GNNs) and Graph Attention Networks (GAT) to model complex process flows and dependencies.
+
+Special thanks to Somesh Misra and Shashank Dixit for their groundbreaking research in process mapping using GNNs.
